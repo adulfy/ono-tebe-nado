@@ -7,7 +7,7 @@
     display: grid;
     margin: 92px 24px 96px;
     width: 1052px;
-    height: 105px;    
+    height: 105px;
     grid-template-columns: 3fr 1fr 3fr;
     font-size: 18px;
     font-family: 'Raleway', sans-serif;
@@ -34,11 +34,11 @@
     margin-left: 1.5em;
 }
 
-.header_menu-item_last{
+.header_menu-item_last {
     margin-right: 0;
 }
 
-.header_logo{
+.header_logo {
     justify-self: center;
     align-self: center;
 }
@@ -105,14 +105,14 @@
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     padding: 165px 50px 237px;
-    line-height: 125px;
+    line-height: 115px;
     height: 520px;
     width: 1100px;
     position: absolute;
 }
 
 .text-align {
-    letter-spacing: 5px;
+    letter-spacing: 0.05em;
 }
 
 .text-align-left {
@@ -120,6 +120,7 @@
 }
 
 .text-align-center {
+    line-height: 135px;
     display: block;
     text-align: center;
 }
@@ -208,7 +209,7 @@
     background-image: url('../../images/card-lot-01.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
     min-height: 100%;
 }
 
@@ -341,10 +342,6 @@
     text-underline-offset: 4px;
 }
 
-.footer-social_list {
-    list-style-type: none;
-}
-
 .footer_social-icon {
     width: 48px;
     height: 48px;
@@ -355,5 +352,6 @@
     flex-direction: row;
     justify-content: space-between;
     padding-left: 10px;
+    list-style-type: none;
 }
 
