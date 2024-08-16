@@ -144,9 +144,7 @@
 }
 
 .cover_description {
-    clear: both;
     display: flex;
-    text-wrap: nowrap;
     align-items: end;
     justify-content: center;
 }
@@ -157,7 +155,9 @@
     padding: 0px 0px 62px 78px;
     font-size: 22px;
     text-transform: uppercase;
-    word-spacing: 19px;
+    word-spacing: 18.6px;
+    line-height: 28px;
+    text-wrap: nowrap;
 }
 
 .bet_button {
@@ -208,8 +208,8 @@
 .card-type_film {
     background-image: url('../../images/card-lot-01.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
+    background-repeat: no-repeat;
     min-height: 100%;
 }
 
@@ -238,13 +238,12 @@
 .card-title {
     color: white;
     font-size: 22px;
-    line-height: 1.2em;
     text-transform: uppercase;
     text-decoration: underline;
-    text-underline-position: under;
-    text-decoration-thickness: 1px;
+    text-underline-position: below;
     padding: 50px 40px 0;
     z-index: 5;
+    line-height: 26.4px;
 }
 
 .card-text {
@@ -261,6 +260,8 @@
     font-size: 20px;
     padding: 30px 0 2px 40px;
     text-underline-position: under;
+    text-underline-offset: 1.5px;
+    line-height: 23.48px;
 }
 
 .about {
@@ -275,8 +276,8 @@
 }
 
 .about-logo {
-    width: 240px;
     height: 240px;
+    width: 240px;
     background-color: black;
     border-radius: 100%;
     display: flex;
@@ -296,6 +297,7 @@
     margin: 136px 0 0 8px ;
     font-size: 40px;
     text-transform: uppercase;
+    line-height: 46.96px;
 }
 
 .about-text {
@@ -355,3 +357,4 @@
     list-style-type: none;
 }
 
+/* */
