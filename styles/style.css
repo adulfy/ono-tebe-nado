@@ -9,6 +9,7 @@
     width: 1052px;
     grid-template-columns: 3fr 1fr 3fr;
     font-size: 18px;
+    height: 100%;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -47,7 +48,6 @@
     height: 105px;
     gap: 0px;
     opacity: 0px;
-
 }
 
 .address {
@@ -179,6 +179,7 @@
 .lots {
     font-family: 'Raleway', sans-serif;
     width: 1100px;
+    height: 100%;
     margin-top: 179px;
     padding: 0 24px 0;
     flex-wrap: wrap;
@@ -260,6 +261,7 @@
 
 .about {
     width: 100%;
+    height: 100%;
     margin-top: 146px;
     padding: 0 24px 0;
     display: grid;
@@ -312,8 +314,9 @@
 
 .footer {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr ;
+    grid-template-columns: 1fr 2fr 1fr;
     width: 1000px;
+    height: 100%;
     margin: 180px 50px 88px;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
